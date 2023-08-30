@@ -45,9 +45,6 @@ except URLError as e:
     
 streamlit.write('The user entered', fruit_choice)
 
-# Create a dataframe for the normalized data
-streamlit.dataframe(fruityvice_normalized)
-
 # Don't run anything past here while we troubleshoot
 # streamlit.stop()
 
